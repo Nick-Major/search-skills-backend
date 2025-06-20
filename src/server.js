@@ -48,5 +48,5 @@ app.get("/api/search", async (req, res) => {
   });
 });
 
-const port = process.env.PORT || 7070;
+const port = process.env.PORT || 3000;
 app.listen(port, () => console.log(`The server is running on port ${port}.`));
